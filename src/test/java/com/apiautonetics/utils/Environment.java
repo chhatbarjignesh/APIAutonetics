@@ -10,6 +10,8 @@ public interface Environment extends Config {
 	String url();
 	
 	String environment();
+	
+	String key();
 
 }
 

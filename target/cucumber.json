@@ -6,10 +6,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:44"
             ],
             "result": {
-              "duration": 67312673,
+              "duration": 72148380,
               "status": "passed"
             },
             "match": {
@@ -24,10 +24,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:45"
             ],
             "result": {
-              "duration": 211008,
+              "duration": 167255,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 104206978,
+              "duration": 109714882,
               "status": "passed"
             },
             "line": 10,
@@ -61,10 +61,10 @@
           },
           {
             "output": [
-              "WeatherAPI\nSpringfield\n"
+              "I call the Weather API withSpringfield City\n"
             ],
             "result": {
-              "duration": 213792,
+              "duration": 1248459109,
               "status": "passed"
             },
             "line": 11,
@@ -86,23 +86,23 @@
           },
           {
             "output": [
-              "temperature\n5\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 624 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 143429,
+              "duration": 33126645,
               "status": "passed"
             },
             "line": 12,
-            "name": "I should see the \"temperature\" in the response within \"5\" seconds",
+            "name": "I should see the \"200\" response within \"5\" seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "temperature",
+                  "val": "200",
                   "offset": 18
                 },
                 {
                   "val": "5",
-                  "offset": 55
+                  "offset": 40
                 }
               ],
               "location": "WeatherSteps.validateNodeAndSLA(String,String)"
@@ -126,10 +126,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:45"
             ],
             "result": {
-              "duration": 346478,
+              "duration": 267497,
               "status": "passed"
             },
             "match": {
@@ -144,10 +144,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:46"
             ],
             "result": {
-              "duration": 141093,
+              "duration": 127632,
               "status": "passed"
             },
             "match": {
@@ -163,7 +163,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 223024,
+              "duration": 200403,
               "status": "passed"
             },
             "line": 10,
@@ -181,10 +181,10 @@
           },
           {
             "output": [
-              "WeatherAPI\nEllington\n"
+              "I call the Weather API withEllington City\n"
             ],
             "result": {
-              "duration": 113242,
+              "duration": 185641074,
               "status": "passed"
             },
             "line": 11,
@@ -206,23 +206,23 @@
           },
           {
             "output": [
-              "temperature\n5\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 182 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 93461,
+              "duration": 1015675,
               "status": "passed"
             },
             "line": 12,
-            "name": "I should see the \"temperature\" in the response within \"5\" seconds",
+            "name": "I should see the \"200\" response within \"5\" seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "temperature",
+                  "val": "200",
                   "offset": 18
                 },
                 {
                   "val": "5",
-                  "offset": 55
+                  "offset": 40
                 }
               ],
               "location": "WeatherSteps.validateNodeAndSLA(String,String)"
@@ -246,10 +246,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:46"
             ],
             "result": {
-              "duration": 2878786,
+              "duration": 192384,
               "status": "passed"
             },
             "match": {
@@ -264,10 +264,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:46"
             ],
             "result": {
-              "duration": 151190,
+              "duration": 121948,
               "status": "passed"
             },
             "match": {
@@ -283,7 +283,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 220373,
+              "duration": 151974,
               "status": "passed"
             },
             "line": 10,
@@ -301,10 +301,10 @@
           },
           {
             "output": [
-              "WeatherAPI\nBoston\n"
+              "I call the Weather API withBoston City\n"
             ],
             "result": {
-              "duration": 109027,
+              "duration": 40767068,
               "status": "passed"
             },
             "line": 11,
@@ -326,23 +326,23 @@
           },
           {
             "output": [
-              "temperature\n5\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 95235,
+              "duration": 1071153,
               "status": "passed"
             },
             "line": 12,
-            "name": "I should see the \"temperature\" in the response within \"5\" seconds",
+            "name": "I should see the \"200\" response within \"5\" seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "temperature",
+                  "val": "200",
                   "offset": 18
                 },
                 {
                   "val": "5",
-                  "offset": 55
+                  "offset": 40
                 }
               ],
               "location": "WeatherSteps.validateNodeAndSLA(String,String)"
@@ -366,10 +366,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:46"
             ],
             "result": {
-              "duration": 300143,
+              "duration": 324912,
               "status": "passed"
             },
             "match": {
@@ -384,10 +384,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 13:33:22"
+              "12/06/2018 15:21:46"
             ],
             "result": {
-              "duration": 126077,
+              "duration": 122800,
               "status": "passed"
             },
             "match": {
@@ -403,7 +403,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 179767,
+              "duration": 120883,
               "status": "passed"
             },
             "line": 10,
@@ -421,10 +421,10 @@
           },
           {
             "output": [
-              "WeatherAPI\nDenver\n"
+              "I call the Weather API withDenver City\n"
             ],
             "result": {
-              "duration": 132497,
+              "duration": 41619283,
               "status": "passed"
             },
             "line": 11,
@@ -446,23 +446,23 @@
           },
           {
             "output": [
-              "temperature\n5\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 142146,
+              "duration": 842302,
               "status": "passed"
             },
             "line": 12,
-            "name": "I should see the \"temperature\" in the response within \"5\" seconds",
+            "name": "I should see the \"200\" response within \"5\" seconds",
             "match": {
               "arguments": [
                 {
-                  "val": "temperature",
+                  "val": "200",
                   "offset": 18
                 },
                 {
                   "val": "5",
-                  "offset": 55
+                  "offset": 40
                 }
               ],
               "location": "WeatherSteps.validateNodeAndSLA(String,String)"

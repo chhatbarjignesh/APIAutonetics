@@ -2,6 +2,7 @@ package com.apiautonetics.cucumber.steps;
 
 import com.apiautonetics.utils.ApplicationUtils;
 import com.apiautonetics.utils.BaseUtils;
+import com.apiautonetics.utils.ServiceUtils;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -24,15 +25,14 @@ public class WeatherSteps {
 	
 	@When("^I call the \"(.*)\" by \"(.*)\"$")
 	public void callAPI(String apiName, String city) {
-		ApplicationUtils.outputText(apiName);
-		ApplicationUtils.outputText(city);
+		ServiceUtils.getService(apiName, city);
 		base.scenario.write(ApplicationUtils.publishOutputText());
 	}
 	
-	@Then("^I should see the \"(.*)\" in the response within \"(.*)\" seconds$")
-	public void validateNodeAndSLA(String node, String temp) {
-		ApplicationUtils.outputText(node);
-		ApplicationUtils.outputText(temp);
+	@Then("^I should see the \"(.*)\" response within \"(.*)\" seconds$")
+	public void validateNodeAndSLA(String code, String time) {
+		ServiceUtils.validateResponseCode(code);
+		ServiceUtils.validateResponseTime(time);
 		base.scenario.write(ApplicationUtils.publishOutputText());
 	}
 

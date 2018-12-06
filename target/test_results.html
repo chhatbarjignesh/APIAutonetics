@@ -51,7 +51,7 @@
         <div class="col m4 s12">
             <table id="metaData" class="bordered">
                 <tbody>
-                <tr><th>Duration</th><td>0S</td></tr>
+                <tr><th>Duration</th><td>1S</td></tr>
                 <tr><th>Environment</th><td>My Environment</td></tr>
                 </tbody>
             </table>
@@ -63,13 +63,13 @@
         <li class="feature working">
             <div class="collapsible-header purple lighten-1 white-text waves-effect waves-light">
                 <i class="material-icons white-text">featured_play_list</i>
-                <b>Feature</b>&nbsp;Test the Weather API (0S)
+                <b>Feature</b>&nbsp;Test the Weather API (1S)
             </div>
             <div class="collapsible-body purple lighten-4">
                 <ul class="collection scenarioList">
                         <li class="collection-item scenario passed">
                             <a class="waves-effect waves-light modal-trigger white-text" href="#f0s0">
-                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (0S)
+                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (1S)
                             </a>
                         </li>
                         <li class="collection-item scenario passed">
@@ -164,16 +164,15 @@
 </li>
 
 <li class="collection-item step passed">
-    <b>When </b> I call the "WeatherAPI" by "Springfield" (0S)
-            <br>WeatherAPI
-Springfield
+    <b>When </b> I call the "WeatherAPI" by "Springfield" (1S)
+            <br>I call the Weather API withSpringfield City
 
 </li>
 
 <li class="collection-item step passed">
-    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
-            <br>temperature
-5
+    <b>Then </b> I should see the "200" response within "5" seconds (0S)
+            <br>I Validated that Response Code is correct Expected: 200 Actual: 200
+I Validated that Response time is 624 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -202,15 +201,14 @@ Springfield
 
 <li class="collection-item step passed">
     <b>When </b> I call the "WeatherAPI" by "Ellington" (0S)
-            <br>WeatherAPI
-Ellington
+            <br>I call the Weather API withEllington City
 
 </li>
 
 <li class="collection-item step passed">
-    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
-            <br>temperature
-5
+    <b>Then </b> I should see the "200" response within "5" seconds (0S)
+            <br>I Validated that Response Code is correct Expected: 200 Actual: 200
+I Validated that Response time is 182 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -239,15 +237,14 @@ Ellington
 
 <li class="collection-item step passed">
     <b>When </b> I call the "WeatherAPI" by "Boston" (0S)
-            <br>WeatherAPI
-Boston
+            <br>I call the Weather API withBoston City
 
 </li>
 
 <li class="collection-item step passed">
-    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
-            <br>temperature
-5
+    <b>Then </b> I should see the "200" response within "5" seconds (0S)
+            <br>I Validated that Response Code is correct Expected: 200 Actual: 200
+I Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -276,15 +273,14 @@ Boston
 
 <li class="collection-item step passed">
     <b>When </b> I call the "WeatherAPI" by "Denver" (0S)
-            <br>WeatherAPI
-Denver
+            <br>I call the Weather API withDenver City
 
 </li>
 
 <li class="collection-item step passed">
-    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
-            <br>temperature
-5
+    <b>Then </b> I should see the "200" response within "5" seconds (0S)
+            <br>I Validated that Response Code is correct Expected: 200 Actual: 200
+I Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 

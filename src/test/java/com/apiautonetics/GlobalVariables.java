@@ -15,6 +15,7 @@ public class GlobalVariables {
 	public static ArrayList<String> outputText = new ArrayList<String>();
 	public static Scenario scenario;
 	public static Environment environment = ConfigFactory.create(Environment.class);
+	public static Environment key = ConfigFactory.create(Environment.class);
 	public static Response resp;
 	public static String userCode;
 	public static Map<String, String> headers = new HashMap<String, String>();

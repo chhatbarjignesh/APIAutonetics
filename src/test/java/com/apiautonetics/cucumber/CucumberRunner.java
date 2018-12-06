@@ -18,6 +18,4 @@ public class CucumberRunner  {
         GenerateReport.cucumberReport();
         
     }
-	
-
 }

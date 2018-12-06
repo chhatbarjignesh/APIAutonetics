@@ -9,7 +9,7 @@ Feature: Test the Weather API
 Scenario Outline: As a User I want to verify that service is returning weather for different city within defined SLA
 Given I have an access to "Weather API"
 When I call the "WeatherAPI" by "<City>"
-Then I should see the "temperature" in the response within "5" seconds
+Then I should see the "200" response within "5" seconds
 Examples:
 |	City			|
 |	Springfield	|
