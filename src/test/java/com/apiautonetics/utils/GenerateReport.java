@@ -15,7 +15,7 @@ public class GenerateReport {
         ReportBuilder reportBuilder = new ReportBuilder();
         
         // Set output Report Dir 
-        reportBuilder.setReportDirectory("target/");
+        reportBuilder.setReportDirectory("");
         
         // Set output report file name
         reportBuilder.setReportFileName("test_results");
@@ -34,7 +34,7 @@ public class GenerateReport {
 
         // Create list or report Files or Directories or URLs or JSONObject or JSONString
         List<Object> cucumberJsonReports = new ArrayList<>();
-        cucumberJsonReports.add(new File("target/cucumber.json"));
+        cucumberJsonReports.add(new File("cucumber.json"));
         
         // Build your report
         reportBuilder.build(cucumberJsonReports);
