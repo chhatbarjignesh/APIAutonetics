@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Test Report</title>
+    <link rel="icon" href="http://reportbuilder.rajatthareja.com/rb.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection"/>
+    <link href="https://cdn.rawgit.com/rajatthareja/ReportBuilderJava/v1.0.3/css/report.builder.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+<header class="purple lighten-5">
+    <div class="row purple lighten-1">
+        <div class="col m6 hide-on-small-only">
+            <h5 class="truncate white-text tooltipped" data-tooltip="My Test Report">My Test Report</h5>
+        </div>
+        <div class="col m6 s12 purple lighten-1">
+            <ul class="tabs purple lighten-1 row" style="overflow-x: hidden">
+                <li class="tab col s3"><a class=" purple lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a></li>
+                <li class="tab col s3"><a class=" purple lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a></li>
+                <li class="tab col s3"><a class=" purple lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="purple lighten-5">
+    <div class="row">
+
+<div id="overview" class="col s12 purple lighten-5">
+    <div class="row">
+        <div class="col m4 s12">
+            <canvas id="featuresDoughnut" width="400" height="400"></canvas>
+            <table id="metaDataFeatures" class="bordered">
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="col m4 s12">
+            <canvas id="scenariosDoughnut" width="400" height="400"></canvas>
+            <table id="metaDataScenarios" class="bordered">
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="col m4 s12">
+            <table id="metaData" class="bordered">
+                <tbody>
+                <tr><th>Duration</th><td>0S</td></tr>
+                <tr><th>Environment</th><td>My Environment</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div id="features" class="col s12 purple lighten-5">
+    <ul class="featureList collapsible popout" data-collapsible="expandable">
+        <li class="feature working">
+            <div class="collapsible-header purple lighten-1 white-text waves-effect waves-light">
+                <i class="material-icons white-text">featured_play_list</i>
+                <b>Feature</b>&nbsp;Test the Weather API (0S)
+            </div>
+            <div class="collapsible-body purple lighten-4">
+                <ul class="collection scenarioList">
+                        <li class="collection-item scenario passed">
+                            <a class="waves-effect waves-light modal-trigger white-text" href="#f0s0">
+                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (0S)
+                            </a>
+                        </li>
+                        <li class="collection-item scenario passed">
+                            <a class="waves-effect waves-light modal-trigger white-text" href="#f0s1">
+                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (0S)
+                            </a>
+                        </li>
+                        <li class="collection-item scenario passed">
+                            <a class="waves-effect waves-light modal-trigger white-text" href="#f0s2">
+                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (0S)
+                            </a>
+                        </li>
+                        <li class="collection-item scenario passed">
+                            <a class="waves-effect waves-light modal-trigger white-text" href="#f0s3">
+                                <b>Scenario Outline</b> As a User I want to verify that service is returning weather for different city within defined SLA (0S)
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div id="summary" class="col s12 purple lighten-5">
+    <table id="summaryTable" class="bordered purple lighten-1 white-text">
+        <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Scenario</th>
+            <th>Status</th>
+            <th class="hide-on-small-only">Error</th>
+        </tr>
+        </thead>
+        <tbody>
+                    <tr class="passed">
+                        <td class="hoverable">Test the Weather API</td>
+                        <td class="hoverable"><a class="modal-trigger white-text" href="#f0s0">As a User I want to verify that service is returning weather for different city within defined SLA</a></td>
+                        <td class="hoverable uppercase">passed</td>
+                        <td class="hoverable hide-on-small-only"></td>
+                    </tr>
+                    <tr class="passed">
+                        <td class="hoverable">Test the Weather API</td>
+                        <td class="hoverable"><a class="modal-trigger white-text" href="#f0s1">As a User I want to verify that service is returning weather for different city within defined SLA</a></td>
+                        <td class="hoverable uppercase">passed</td>
+                        <td class="hoverable hide-on-small-only"></td>
+                    </tr>
+                    <tr class="passed">
+                        <td class="hoverable">Test the Weather API</td>
+                        <td class="hoverable"><a class="modal-trigger white-text" href="#f0s2">As a User I want to verify that service is returning weather for different city within defined SLA</a></td>
+                        <td class="hoverable uppercase">passed</td>
+                        <td class="hoverable hide-on-small-only"></td>
+                    </tr>
+                    <tr class="passed">
+                        <td class="hoverable">Test the Weather API</td>
+                        <td class="hoverable"><a class="modal-trigger white-text" href="#f0s3">As a User I want to verify that service is returning weather for different city within defined SLA</a></td>
+                        <td class="hoverable uppercase">passed</td>
+                        <td class="hoverable hide-on-small-only"></td>
+                    </tr>
+        </tbody>
+    </table>
+</div>
+<div id="errors" class="col s12 purple lighten-5">
+    <ul class="errorList collapsible popout" data-collapsible="expandable">
+    </ul>
+</div>
+    </div>
+</main>
+
+<footer class="page-footer purple lighten-4">
+    <div class="footer-copyright purple lighten-1">
+        <div class="container">
+            Happy Reporting!
+            <a class="white-text text-lighten-4 right" href="http://reportbuilderjava.rajatthareja.com">Generated by Report Builder</a>
+        </div>
+    </div>
+</footer>
+<div id="f0s0" class="modal modal-fixed-footer">
+    <div class="modal-content">
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather_by_city</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weawther_by_city_001</div>
+
+        <h5>As a User I want to verify that service is returning weather for different city within defined SLA</h5>
+        src/test/resources/features/APIWeater.feature:15
+
+        <p><ul class="collection stepList">
+<li class="collection-item hook"></li>
+
+<li class="collection-item step passed">
+    <b>Given </b> I have an access to "Weather API" (0S)
+            <br>Weather API
+
+</li>
+
+<li class="collection-item step passed">
+    <b>When </b> I call the "WeatherAPI" by "Springfield" (0S)
+            <br>WeatherAPI
+Springfield
+
+</li>
+
+<li class="collection-item step passed">
+    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
+            <br>temperature
+5
+
+</li>
+
+<li class="collection-item hook"></li>        </ul></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>
+</div><div id="f0s1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather_by_city</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weawther_by_city_001</div>
+
+        <h5>As a User I want to verify that service is returning weather for different city within defined SLA</h5>
+        src/test/resources/features/APIWeater.feature:16
+
+        <p><ul class="collection stepList">
+<li class="collection-item hook"></li>
+
+<li class="collection-item step passed">
+    <b>Given </b> I have an access to "Weather API" (0S)
+            <br>Weather API
+
+</li>
+
+<li class="collection-item step passed">
+    <b>When </b> I call the "WeatherAPI" by "Ellington" (0S)
+            <br>WeatherAPI
+Ellington
+
+</li>
+
+<li class="collection-item step passed">
+    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
+            <br>temperature
+5
+
+</li>
+
+<li class="collection-item hook"></li>        </ul></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>
+</div><div id="f0s2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather_by_city</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weawther_by_city_001</div>
+
+        <h5>As a User I want to verify that service is returning weather for different city within defined SLA</h5>
+        src/test/resources/features/APIWeater.feature:17
+
+        <p><ul class="collection stepList">
+<li class="collection-item hook"></li>
+
+<li class="collection-item step passed">
+    <b>Given </b> I have an access to "Weather API" (0S)
+            <br>Weather API
+
+</li>
+
+<li class="collection-item step passed">
+    <b>When </b> I call the "WeatherAPI" by "Boston" (0S)
+            <br>WeatherAPI
+Boston
+
+</li>
+
+<li class="collection-item step passed">
+    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
+            <br>temperature
+5
+
+</li>
+
+<li class="collection-item hook"></li>        </ul></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>
+</div><div id="f0s3" class="modal modal-fixed-footer">
+    <div class="modal-content">
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weather_by_city</div>
+                <div class="chip"><i class="material-icons rotate-45">label</i>@weawther_by_city_001</div>
+
+        <h5>As a User I want to verify that service is returning weather for different city within defined SLA</h5>
+        src/test/resources/features/APIWeater.feature:18
+
+        <p><ul class="collection stepList">
+<li class="collection-item hook"></li>
+
+<li class="collection-item step passed">
+    <b>Given </b> I have an access to "Weather API" (0S)
+            <br>Weather API
+
+</li>
+
+<li class="collection-item step passed">
+    <b>When </b> I call the "WeatherAPI" by "Denver" (0S)
+            <br>WeatherAPI
+Denver
+
+</li>
+
+<li class="collection-item step passed">
+    <b>Then </b> I should see the "temperature" in the response within "5" seconds (0S)
+            <br>temperature
+5
+
+</li>
+
+<li class="collection-item hook"></li>        </ul></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"><i class="material-icons">close</i></a>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+            $('#f0s0').modal();
+            $('#f0s1').modal();
+            $('#f0s2').modal();
+            $('#f0s3').modal();
+        $('li:empty').remove();
+    });
+</script>
+<script src="https://cdn.rawgit.com/rajatthareja/ReportBuilderJava/v1.0.3/js/report.builder.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+<script>
+    var commands = {
+        'show :tab': function(tab) {
+            if (tab === "overview") {
+                $("a[data-tooltip='Results Overview']").click();
+            } else if (tab === "features" || tab === "feature") {
+                $("a[data-tooltip='Scenarios by Features']").click();
+            } else if (tab === "summary") {
+                $("a[data-tooltip='Scenarios Summary Table']").click();
+            } else if (tab === "errors" || tab === "error" || tab === "failed" || tab === "bugs") {
+                $("a[data-tooltip='Failed Scenarios']").click();
+            }
+        },
+        'search *search': function (search) {
+            $("a[data-tooltip='Scenarios Summary Table']").click();
+            $("input[type='search']").val(search);
+            $('table#summaryTable').DataTable().search(search).draw();
+        }
+    };
+    annyang.addCommands(commands);
+    annyang.start();
+</script>
+</body>
+</html>

@@ -6,10 +6,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 64331358,
+              "duration": 67312673,
               "status": "passed"
             },
             "match": {
@@ -24,10 +24,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 223890,
+              "duration": 211008,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 91322745,
+              "duration": 104206978,
               "status": "passed"
             },
             "line": 10,
@@ -64,7 +64,7 @@
               "WeatherAPI\nSpringfield\n"
             ],
             "result": {
-              "duration": 182189,
+              "duration": 213792,
               "status": "passed"
             },
             "line": 11,
@@ -89,7 +89,7 @@
               "temperature\n5\n"
             ],
             "result": {
-              "duration": 113080,
+              "duration": 143429,
               "status": "passed"
             },
             "line": 12,
@@ -126,10 +126,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 296475,
+              "duration": 346478,
               "status": "passed"
             },
             "match": {
@@ -144,10 +144,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 147730,
+              "duration": 141093,
               "status": "passed"
             },
             "match": {
@@ -163,7 +163,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 160094,
+              "duration": 223024,
               "status": "passed"
             },
             "line": 10,
@@ -184,7 +184,7 @@
               "WeatherAPI\nEllington\n"
             ],
             "result": {
-              "duration": 118837,
+              "duration": 113242,
               "status": "passed"
             },
             "line": 11,
@@ -209,7 +209,7 @@
               "temperature\n5\n"
             ],
             "result": {
-              "duration": 130722,
+              "duration": 93461,
               "status": "passed"
             },
             "line": 12,
@@ -246,10 +246,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 283629,
+              "duration": 2878786,
               "status": "passed"
             },
             "match": {
@@ -264,10 +264,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 97748,
+              "duration": 151190,
               "status": "passed"
             },
             "match": {
@@ -283,7 +283,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 171905,
+              "duration": 220373,
               "status": "passed"
             },
             "line": 10,
@@ -304,7 +304,7 @@
               "WeatherAPI\nBoston\n"
             ],
             "result": {
-              "duration": 96788,
+              "duration": 109027,
               "status": "passed"
             },
             "line": 11,
@@ -329,7 +329,7 @@
               "temperature\n5\n"
             ],
             "result": {
-              "duration": 81383,
+              "duration": 95235,
               "status": "passed"
             },
             "line": 12,
@@ -366,10 +366,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 275993,
+              "duration": 300143,
               "status": "passed"
             },
             "match": {
@@ -384,10 +384,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 11:18:28"
+              "12/06/2018 13:33:22"
             ],
             "result": {
-              "duration": 100840,
+              "duration": 126077,
               "status": "passed"
             },
             "match": {
@@ -403,7 +403,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 192331,
+              "duration": 179767,
               "status": "passed"
             },
             "line": 10,
@@ -424,7 +424,7 @@
               "WeatherAPI\nDenver\n"
             ],
             "result": {
-              "duration": 93976,
+              "duration": 132497,
               "status": "passed"
             },
             "line": 11,
@@ -449,7 +449,7 @@
               "temperature\n5\n"
             ],
             "result": {
-              "duration": 87280,
+              "duration": 142146,
               "status": "passed"
             },
             "line": 12,

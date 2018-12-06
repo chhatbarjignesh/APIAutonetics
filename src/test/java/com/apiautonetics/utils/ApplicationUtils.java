@@ -13,7 +13,7 @@ import org.yaml.snakeyaml.Yaml;
 import com.apiautonetics.GlobalVariables;
 
 public class ApplicationUtils {
-	public static void outputText(String textToOutput) {
+	public static void outputText(String textToOutput)  {
 		GlobalVariables.outputText.add(textToOutput);
 
 	}
