@@ -26,16 +26,6 @@
 		    <version>3.141.59</version>
 		</dependency>
 		<dependency>
-			<groupId>com.teradata.jdbc</groupId>
-			<artifactId>terajdbc4</artifactId>
-			<version>16.20.00.02</version>
-		</dependency>
-		<dependency>
-			<groupId>com.teradata.jdbc</groupId>
-			<artifactId>tdgssconfig</artifactId>
-			<version>16.20.00.02</version>
-		</dependency>
-		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>${cucumber.version}</version>
