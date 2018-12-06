@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>My Test Report</title>
+    <title>Weather API</title>
     <link rel="icon" href="http://reportbuilder.rajatthareja.com/rb.ico">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
@@ -17,24 +17,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 
-<header class="purple lighten-5">
-    <div class="row purple lighten-1">
+<header class="cyan lighten-5">
+    <div class="row cyan lighten-1">
         <div class="col m6 hide-on-small-only">
-            <h5 class="truncate white-text tooltipped" data-tooltip="My Test Report">My Test Report</h5>
+            <h5 class="truncate white-text tooltipped" data-tooltip="Weather API">Weather API</h5>
         </div>
-        <div class="col m6 s12 purple lighten-1">
-            <ul class="tabs purple lighten-1 row" style="overflow-x: hidden">
-                <li class="tab col s3"><a class=" purple lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a></li>
-                <li class="tab col s3"><a class=" purple lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a></li>
-                <li class="tab col s3"><a class=" purple lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a></li>
+        <div class="col m6 s12 cyan lighten-1">
+            <ul class="tabs cyan lighten-1 row" style="overflow-x: hidden">
+                <li class="tab col s3"><a class=" cyan lighten-3 active blue-text waves-effect waves-light tooltipped" data-tooltip="Results Overview" href="#overview"><i class="material-icons">assessment</i> Overview</a></li>
+                <li class="tab col s3"><a class=" cyan lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios by Features" href="#features"><i class="material-icons">view_headline</i> Features</a></li>
+                <li class="tab col s3"><a class=" cyan lighten-3 white-text waves-effect waves-light tooltipped" data-tooltip="Scenarios Summary Table" href="#summary"><i class="material-icons">view_comfy</i> Summary</a></li>
             </ul>
         </div>
     </div>
 </header>
-<main class="purple lighten-5">
+<main class="cyan lighten-5">
     <div class="row">
 
-<div id="overview" class="col s12 purple lighten-5">
+<div id="overview" class="col s12 cyan lighten-5">
     <div class="row">
         <div class="col m4 s12">
             <canvas id="featuresDoughnut" width="400" height="400"></canvas>
@@ -51,21 +51,21 @@
         <div class="col m4 s12">
             <table id="metaData" class="bordered">
                 <tbody>
-                <tr><th>Duration</th><td>1S</td></tr>
-                <tr><th>Environment</th><td>My Environment</td></tr>
+                <tr><th>Duration</th><td>2S</td></tr>
+                <tr><th>Environment</th><td>QA</td></tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
-<div id="features" class="col s12 purple lighten-5">
+<div id="features" class="col s12 cyan lighten-5">
     <ul class="featureList collapsible popout" data-collapsible="expandable">
         <li class="feature working">
-            <div class="collapsible-header purple lighten-1 white-text waves-effect waves-light">
+            <div class="collapsible-header cyan lighten-1 white-text waves-effect waves-light">
                 <i class="material-icons white-text">featured_play_list</i>
-                <b>Feature</b>&nbsp;Test the Weather API (1S)
+                <b>Feature</b>&nbsp;Test the Weather API (2S)
             </div>
-            <div class="collapsible-body purple lighten-4">
+            <div class="collapsible-body cyan lighten-4">
                 <ul class="collection scenarioList">
                         <li class="collection-item scenario passed">
                             <a class="waves-effect waves-light modal-trigger white-text" href="#f0s0">
@@ -92,8 +92,8 @@
         </li>
     </ul>
 </div>
-<div id="summary" class="col s12 purple lighten-5">
-    <table id="summaryTable" class="bordered purple lighten-1 white-text">
+<div id="summary" class="col s12 cyan lighten-5">
+    <table id="summaryTable" class="bordered cyan lighten-1 white-text">
         <thead>
         <tr>
             <th>Feature</th>
@@ -130,15 +130,15 @@
         </tbody>
     </table>
 </div>
-<div id="errors" class="col s12 purple lighten-5">
+<div id="errors" class="col s12 cyan lighten-5">
     <ul class="errorList collapsible popout" data-collapsible="expandable">
     </ul>
 </div>
     </div>
 </main>
 
-<footer class="page-footer purple lighten-4">
-    <div class="footer-copyright purple lighten-1">
+<footer class="page-footer cyan lighten-4">
+    <div class="footer-copyright cyan lighten-1">
         <div class="container">
             Happy Reporting!
             <a class="white-text text-lighten-4 right" href="http://reportbuilderjava.rajatthareja.com">Generated by Report Builder</a>
@@ -172,7 +172,7 @@
 <li class="collection-item step passed">
     <b>Then </b> I should see the "200" response within "5" seconds (0S)
             <br>I Validated that Response Code is correct Expected: 200 Actual: 200
-I Validated that Response time is 624 MILISECONDS less than: 5000 MILISECONDS
+I Validated that Response time is 1027 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -208,7 +208,7 @@ I Validated that Response time is 624 MILISECONDS less than: 5000 MILISECONDS
 <li class="collection-item step passed">
     <b>Then </b> I should see the "200" response within "5" seconds (0S)
             <br>I Validated that Response Code is correct Expected: 200 Actual: 200
-I Validated that Response time is 182 MILISECONDS less than: 5000 MILISECONDS
+I Validated that Response time is 355 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -244,7 +244,7 @@ I Validated that Response time is 182 MILISECONDS less than: 5000 MILISECONDS
 <li class="collection-item step passed">
     <b>Then </b> I should see the "200" response within "5" seconds (0S)
             <br>I Validated that Response Code is correct Expected: 200 Actual: 200
-I Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS
+I Validated that Response time is 81 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 
@@ -280,7 +280,7 @@ I Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS
 <li class="collection-item step passed">
     <b>Then </b> I should see the "200" response within "5" seconds (0S)
             <br>I Validated that Response Code is correct Expected: 200 Actual: 200
-I Validated that Response time is 38 MILISECONDS less than: 5000 MILISECONDS
+I Validated that Response time is 35 MILISECONDS less than: 5000 MILISECONDS
 
 </li>
 

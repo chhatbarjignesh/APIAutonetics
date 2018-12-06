@@ -1,6 +1,7 @@
 package com.apiautonetics.utils;
 
 import com.rajatthareja.reportbuilder.ReportBuilder;
+import com.apiautonetics.GlobalVariables;
 import com.rajatthareja.reportbuilder.Color;
 
 import java.io.File;
@@ -20,16 +21,16 @@ public class GenerateReport {
         reportBuilder.setReportFileName("test_results");
         
         // Set Report Title
-        reportBuilder.setReportTitle("My Test Report");
+        reportBuilder.setReportTitle("Weather API");
         
         // Set Report Color for more visit http://materializecss.com/color.html
-        reportBuilder.setReportColor(Color.PURPLE);
+        reportBuilder.setReportColor(Color.CYAN);
         
         // Enable voice control for report
         reportBuilder.enableVoiceControl();
         
         // Add additional info for Report
-        reportBuilder.setAdditionalInfo("Environment", "My Environment");
+        reportBuilder.setAdditionalInfo("Environment", GlobalVariables.environment.environment());
 
         // Create list or report Files or Directories or URLs or JSONObject or JSONString
         List<Object> cucumberJsonReports = new ArrayList<>();
