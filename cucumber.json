@@ -6,10 +6,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 16:24:03"
+              "12/07/2018 09:46:53"
             ],
             "result": {
-              "duration": 66429052,
+              "duration": 66379547,
               "status": "passed"
             },
             "match": {
@@ -24,10 +24,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 156189,
+              "duration": 212248,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 96729624,
+              "duration": 91851738,
               "status": "passed"
             },
             "line": 10,
@@ -64,7 +64,7 @@
               "I call the Weather API withSpringfield City\n"
             ],
             "result": {
-              "duration": 986564561,
+              "duration": 1002094240,
               "status": "passed"
             },
             "line": 11,
@@ -86,10 +86,10 @@
           },
           {
             "output": [
-              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 453 MILISECONDS less than: 5000 MILISECONDS\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 472 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 34151612,
+              "duration": 31169329,
               "status": "passed"
             },
             "line": 12,
@@ -126,10 +126,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 235388,
+              "duration": 329245,
               "status": "passed"
             },
             "match": {
@@ -144,10 +144,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 183074,
+              "duration": 210389,
               "status": "passed"
             },
             "match": {
@@ -163,7 +163,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 134352,
+              "duration": 237603,
               "status": "passed"
             },
             "line": 10,
@@ -184,7 +184,7 @@
               "I call the Weather API withEllington City\n"
             ],
             "result": {
-              "duration": 37755382,
+              "duration": 73916677,
               "status": "passed"
             },
             "line": 11,
@@ -206,10 +206,10 @@
           },
           {
             "output": [
-              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 34 MILISECONDS less than: 5000 MILISECONDS\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 68 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 1892043,
+              "duration": 1164088,
               "status": "passed"
             },
             "line": 12,
@@ -246,10 +246,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 253259,
+              "duration": 247842,
               "status": "passed"
             },
             "match": {
@@ -264,10 +264,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 151953,
+              "duration": 180491,
               "status": "passed"
             },
             "match": {
@@ -283,7 +283,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 158961,
+              "duration": 191663,
               "status": "passed"
             },
             "line": 10,
@@ -304,7 +304,7 @@
               "I call the Weather API withBoston City\n"
             ],
             "result": {
-              "duration": 35569723,
+              "duration": 33289721,
               "status": "passed"
             },
             "line": 11,
@@ -326,10 +326,10 @@
           },
           {
             "output": [
-              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 32 MILISECONDS less than: 5000 MILISECONDS\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 30 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 2144549,
+              "duration": 1502451,
               "status": "passed"
             },
             "line": 12,
@@ -366,10 +366,10 @@
         "before": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 364963,
+              "duration": 300241,
               "status": "passed"
             },
             "match": {
@@ -384,10 +384,10 @@
         "after": [
           {
             "output": [
-              "12/06/2018 16:24:04"
+              "12/07/2018 09:46:54"
             ],
             "result": {
-              "duration": 142003,
+              "duration": 194537,
               "status": "passed"
             },
             "match": {
@@ -403,7 +403,7 @@
               "Weather API\n"
             ],
             "result": {
-              "duration": 177868,
+              "duration": 170917,
               "status": "passed"
             },
             "line": 10,
@@ -424,7 +424,7 @@
               "I call the Weather API withDenver City\n"
             ],
             "result": {
-              "duration": 39093697,
+              "duration": 35107841,
               "status": "passed"
             },
             "line": 11,
@@ -446,10 +446,10 @@
           },
           {
             "output": [
-              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 34 MILISECONDS less than: 5000 MILISECONDS\n"
+              "I Validated that Response Code is correct Expected: 200 Actual: 200\nI Validated that Response time is 31 MILISECONDS less than: 5000 MILISECONDS\n"
             ],
             "result": {
-              "duration": 1197291,
+              "duration": 1134961,
               "status": "passed"
             },
             "line": 12,
