@@ -12,7 +12,7 @@ public class WeatherAPI {
 		
 		Response res = given().when().get(GlobalVariables.environment.url() + param +"&APPID="+ GlobalVariables.environment.key());
 		GlobalVariables.resp = res;
-		ApplicationUtils.outputText("I call the Weather API with"+param+" City");
+		ApplicationUtils.outputText("I call the Weather API with "+param+" City");
 		
 	}
 
